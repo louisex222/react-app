@@ -3,13 +3,21 @@ import { Box, styled } from '@mui/material';
 import { isMobile } from 'react-device-detect';
 
 // 圖片資源
+import backgroundImg from '../assets/image/background.jpg';
+import personImg from '../assets/image/person.png';
+import personWhiteImg from '../assets/image/person-white.png';
+import rightEyeImg from '../assets/image/righteye.png';
+import leftEyeImg from '../assets/image/lefteye.png';
+import textImg from '../assets/image/text.png';
+
+// 然後在物件中使用
 const images = {
-  background: require('../assets/image/background.jpg'),
-  person: require('../assets/image/person.png'),
-  personWhite: require('../assets/image/person-white.png'),
-  rightEye: require('../assets/image/righteye.png'),
-  leftEye: require('../assets/image/lefteye.png'),
-  text: require('../assets/image/text.png'),
+  background: backgroundImg,
+  person: personImg,
+  personWhite: personWhiteImg,
+  rightEye: rightEyeImg,
+  leftEye: leftEyeImg,
+  text: textImg,
 };
 
 const EYE_MOVEMENT_FACTOR = 10;

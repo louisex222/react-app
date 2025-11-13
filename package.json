@@ -19,10 +19,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite",
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +44,8 @@
     ]
   },
   "devDependencies": {
-    "miragejs": "^0.1.48"
+    "@vitejs/plugin-react": "4.3.3",
+    "miragejs": "^0.1.48",
+    "vite": "5.4.10"
   }
 }
